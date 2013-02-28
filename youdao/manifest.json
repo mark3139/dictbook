@@ -1,0 +1,13 @@
+{
+  "name": "Youdao dict book",
+  "version": "1.0", 
+  "manifest_version": 2,
+  "browser_action": {
+      "default_icon": "images/book.png", 
+      "default_title": "Youdao dict book",      
+      "default_popup": "popup.html"        // optional 
+    },
+  "permissions": [
+	  "webRequest", "webRequestBlocking", "<all_urls>", "cookies"
+	  ]
+}
